@@ -32,6 +32,7 @@ const UploadPage = () => {
                 <Input
                 type="file"
                 name="image-file"
+                img={imageFile}
                 onChange={changeHandle}
                 />
                 <FormText color="muted">

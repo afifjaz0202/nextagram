@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import UserImages from "../containers/UserImages"
 import axios from "axios"
-import { Container, Button } from "reactstrap"
+import { Container } from "reactstrap"
 
 const MyProfilePage = () =>{
   const [user, setUser] = useState({})
